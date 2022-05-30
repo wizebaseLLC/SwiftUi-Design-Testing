@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B7F7DA32845516900E3060A /* BottomNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7F7DA22845516900E3060A /* BottomNavigator.swift */; };
+		1B7F7DA62845553A00E3060A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7F7DA52845553A00E3060A /* HomeView.swift */; };
+		1B7F7DA8284563E900E3060A /* ToolbarAvatar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7F7DA7284563E900E3060A /* ToolbarAvatar.swift */; };
+		1B7F7DAA284565BE00E3060A /* BalanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7F7DA9284565BE00E3060A /* BalanceView.swift */; };
+		1B7F7DAC2845669A00E3060A /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7F7DAB2845669A00E3060A /* CardView.swift */; };
+		1B7F7DAE28457A8C00E3060A /* ActivityCardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7F7DAD28457A8C00E3060A /* ActivityCardsView.swift */; };
+		1B7F7DB028457ABA00E3060A /* ActivityHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7F7DAF28457ABA00E3060A /* ActivityHeader.swift */; };
+		1B7F7DB228457B4E00E3060A /* CryptoAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7F7DB128457B4E00E3060A /* CryptoAsset.swift */; };
 		1B96C34D2841279900C0FB44 /* Ui_DesignApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B96C34C2841279900C0FB44 /* Ui_DesignApp.swift */; };
 		1B96C34F2841279900C0FB44 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B96C34E2841279900C0FB44 /* ContentView.swift */; };
 		1B96C3512841279B00C0FB44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B96C3502841279B00C0FB44 /* Assets.xcassets */; };
@@ -34,6 +42,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B7F7DA22845516900E3060A /* BottomNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomNavigator.swift; sourceTree = "<group>"; };
+		1B7F7DA52845553A00E3060A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		1B7F7DA7284563E900E3060A /* ToolbarAvatar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarAvatar.swift; sourceTree = "<group>"; };
+		1B7F7DA9284565BE00E3060A /* BalanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceView.swift; sourceTree = "<group>"; };
+		1B7F7DAB2845669A00E3060A /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		1B7F7DAD28457A8C00E3060A /* ActivityCardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityCardsView.swift; sourceTree = "<group>"; };
+		1B7F7DAF28457ABA00E3060A /* ActivityHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityHeader.swift; sourceTree = "<group>"; };
+		1B7F7DB128457B4E00E3060A /* CryptoAsset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoAsset.swift; sourceTree = "<group>"; };
 		1B96C3492841279900C0FB44 /* Ui Design.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ui Design.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B96C34C2841279900C0FB44 /* Ui_DesignApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ui_DesignApp.swift; sourceTree = "<group>"; };
 		1B96C34E2841279900C0FB44 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,6 +87,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B7F7D9E28454FEB00E3060A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1B7F7DB128457B4E00E3060A /* CryptoAsset.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1B7F7D9F28454FF700E3060A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1B7F7DA42845551B00E3060A /* Home */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1B7F7DA028454FFB00E3060A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		1B7F7DA12845511A00E3060A /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				1B7F7DA22845516900E3060A /* BottomNavigator.swift */,
+				1B7F7DAB2845669A00E3060A /* CardView.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		1B7F7DA42845551B00E3060A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1B7F7DA52845553A00E3060A /* HomeView.swift */,
+				1B7F7DA7284563E900E3060A /* ToolbarAvatar.swift */,
+				1B7F7DA9284565BE00E3060A /* BalanceView.swift */,
+				1B7F7DAD28457A8C00E3060A /* ActivityCardsView.swift */,
+				1B7F7DAF28457ABA00E3060A /* ActivityHeader.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 		1B96C3402841279900C0FB44 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +157,10 @@
 				1B96C34C2841279900C0FB44 /* Ui_DesignApp.swift */,
 				1B96C34E2841279900C0FB44 /* ContentView.swift */,
 				1B96C3502841279B00C0FB44 /* Assets.xcassets */,
+				1B7F7D9E28454FEB00E3060A /* Models */,
+				1B7F7D9F28454FF700E3060A /* Views */,
+				1B7F7DA12845511A00E3060A /* Utilities */,
+				1B7F7DA028454FFB00E3060A /* ViewModels */,
 				1B96C3522841279B00C0FB44 /* Preview Content */,
 			);
 			path = "Ui Design";
@@ -257,8 +321,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B7F7DB028457ABA00E3060A /* ActivityHeader.swift in Sources */,
+				1B7F7DB228457B4E00E3060A /* CryptoAsset.swift in Sources */,
+				1B7F7DA8284563E900E3060A /* ToolbarAvatar.swift in Sources */,
+				1B7F7DA32845516900E3060A /* BottomNavigator.swift in Sources */,
+				1B7F7DAC2845669A00E3060A /* CardView.swift in Sources */,
+				1B7F7DA62845553A00E3060A /* HomeView.swift in Sources */,
+				1B7F7DAA284565BE00E3060A /* BalanceView.swift in Sources */,
 				1B96C34F2841279900C0FB44 /* ContentView.swift in Sources */,
 				1B96C34D2841279900C0FB44 /* Ui_DesignApp.swift in Sources */,
+				1B7F7DAE28457A8C00E3060A /* ActivityCardsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
